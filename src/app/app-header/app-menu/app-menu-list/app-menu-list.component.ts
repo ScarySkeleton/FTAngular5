@@ -13,11 +13,11 @@ export class MenuListComponent implements OnInit {
     @Input() items: Array<Item>;
 
     constructor() {
-        console.log("menu items constructor:", this.items);
+        //console.log("menu items constructor:", this.items);
     }
     
     ngOnInit() {
         // do smth on menu init
-        console.log("menu items oninit:", this.items);
+        //console.log("menu items oninit:", this.items);
     }
 }

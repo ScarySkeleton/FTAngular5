@@ -34,10 +34,10 @@ export class MenuComponent implements OnInit {
 
 
     constructor() {
-        console.log("APP MENU CONSTRUCTOR", this.menuItems);
+        //console.log("APP MENU CONSTRUCTOR", this.menuItems);
     }
 
     ngOnInit() {
-        console.log("APP MENU ONINIT", this.menuItems);
+        //console.log("APP MENU ONINIT", this.menuItems);
     }
 }
