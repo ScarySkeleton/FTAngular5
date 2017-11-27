@@ -14,7 +14,7 @@ export class MenuItemComponent implements OnInit {
 
     constructor(private router: Router) {
         //
-        console.log("MENU ITEM const", this.item);
+        //console.log("MENU ITEM const", this.item);
      }
 
     @Input() item: Item;

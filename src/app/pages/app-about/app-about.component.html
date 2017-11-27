@@ -1,3 +1,18 @@
 <div class="containet about">
     ABOUT PAGE
+
+    ABOUT POSTS FROM OUR COLLEAGUES <br /><hr />
+
+    <input  type='text' [(ngModel)]='title' /> <br />
+    <input  type='text' [(ngModel)]='text' /> <br /> <br/>
+
+    <button (click)='_addPost()'>add</button>
+    <button (click)='_clearPost()'>clear</button>
+
+    <div class='posts'>
+        <div class="post" *ngFor='let post of posts'>
+            TITLE: {{ post.title }}
+            TEXT: {{ post.text }}
+        </div>
+    </div>
 </div>
